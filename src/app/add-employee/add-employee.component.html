@@ -1,0 +1,22 @@
+<h1 class="text-info">ADD EMPLOYEE PAGE
+</h1>
+<div class="container">
+
+    <form class="form-Style" #regdoc="ngForm" (ngSubmit)="addEmployee(regdoc)">
+        <div>
+            <label for="">Id</label>
+            <input type="text" name="empid" ngModel placeholder="enter employee id">
+        </div>
+        <div>
+            <label for="">Name</label>
+            <input type="text" name="empname"  ngModel placeholder="enter employee name">
+        </div>
+        <div>
+            <label for="">Role</label>
+            <input type="text" name="emprole" ngModel placeholder="enter employee role">
+        </div>
+      
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>
